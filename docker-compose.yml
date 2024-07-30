@@ -1,0 +1,13 @@
+version: "3.9"
+name: clearwave
+services:
+  frontend:
+    container_name: cleanwave_frontend
+    build: ./public
+    volumes:
+      - type: bind
+        source: ./public
+        target: /usr/share/nginx/html
+    ports:
+      - 80:80
+      - 443:443
