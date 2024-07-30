@@ -1,0 +1,3 @@
+[submodule "CleanWaveDNS"]
+	path = CleanWaveDNS
+	url = https://github.com/PR3C14D0/CleanWaveDNS
